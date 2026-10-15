@@ -1,0 +1,102 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:5cf79a85-0bd7-5316-913c-eb2eee20a50a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T17:13:12Z",
+    "component": {
+      "type": "application",
+      "name": "SELF_DRIVING_CAR",
+      "version": "aa7fe7a77d39",
+      "bom-ref": "pkg:generic/anticloud/SELF_DRIVING_CAR@aa7fe7a77d39",
+      "purl": "pkg:generic/anticloud/SELF_DRIVING_CAR@aa7fe7a77d39",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "aa7fe7a77d397de27bf8d2ce0e48576337b162f0"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/udacity/self-driving-car"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "catkin",
+      "version": "unspecified",
+      "purl": "pkg:generic/catkin",
+      "bom-ref": "native/catkin@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PkgConfig",
+      "version": "unspecified",
+      "purl": "pkg:generic/PkgConfig",
+      "bom-ref": "native/PkgConfig@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Eigen3",
+      "version": "unspecified",
+      "purl": "pkg:generic/Eigen3",
+      "bom-ref": "native/Eigen3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenCV",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenCV",
+      "bom-ref": "native/OpenCV@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Boost",
+      "version": "unspecified",
+      "purl": "pkg:generic/Boost",
+      "bom-ref": "native/Boost@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libgps",
+      "version": "unspecified",
+      "purl": "pkg:generic/libgps",
+      "bom-ref": "native/libgps@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "DLib",
+      "version": "unspecified",
+      "purl": "pkg:generic/DLib",
+      "bom-ref": "native/DLib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "DBoW2",
+      "version": "unspecified",
+      "purl": "pkg:generic/DBoW2",
+      "bom-ref": "native/DBoW2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytest",
+      "version": ">=3.0,<3.1",
+      "purl": "pkg:pypi/pytest@3.0,<3.1",
+      "bom-ref": "pypi/pytest@>=3.0,<3.1"
+    }
+  ]
+}

@@ -1,0 +1,792 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "SELF_DRIVING_CAR",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\AUTOMOTIVE\\SELF_DRIVING_CAR\\UPSTREAM_CLONE",
+    "git": {
+      "head": "aa7fe7a77d397de27bf8d2ce0e48576337b162f0",
+      "url": "https://github.com/udacity/self-driving-car",
+      "branch": "master",
+      "committed_at": "2021-11-25T16:11:52+05:30"
+    }
+  },
+  "metrics": {
+    "files_total": 548,
+    "source_files_scanned": 205,
+    "lines_of_code": 25580,
+    "languages": {
+      ".png": 141,
+      ".py": 89,
+      ".h": 82,
+      ".md": 41,
+      ".cpp": 38,
+      ".cfg": 25,
+      ".txt": 19,
+      "(none)": 18,
+      ".csv": 15,
+      ".json": 10,
+      ".xml": 9,
+      ".launch": 9,
+      ".prototxt": 9,
+      ".torrent": 6,
+      ".cmake": 3
+    }
+  },
+  "licence": {
+    "spdx": "UNKNOWN",
+    "class": "C",
+    "source_file": "LICENSE.md",
+    "redistribution_allowed": false
+  },
+  "dependencies": {
+    "count": 28,
+    "unique": 9,
+    "by_ecosystem": {
+      "native": 27,
+      "pypi": 1
+    },
+    "list": [
+      {
+        "ecosystem": "pypi",
+        "name": "pytest",
+        "version": ">=3.0,<3.1",
+        "source_file": "acc/setup.py",
+        "raw": "pytest>=3.0,<3.1"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "datasets/udacity_launch/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "datasets/udacity_launch/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "image-localization/community-code/lastminute/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "image-localization/community-code/lastminute/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "DLib",
+        "version": "",
+        "source_file": "image-localization/community-code/lastminute/CMakeLists.txt",
+        "raw": "find_package(DLib"
+      },
+      {
+        "ecosystem": "native",
+        "name": "DBoW2",
+        "version": "",
+        "source_file": "image-localization/community-code/lastminute/CMakeLists.txt",
+        "raw": "find_package(DBoW2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/image_descriptor/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/image_descriptor/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/motion/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PkgConfig",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/motion/CMakeLists.txt",
+        "raw": "find_package(PkgConfig"
+      },
+      {
+        "ecosystem": "native",
+        "name": "libgps",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/motion/CMakeLists.txt",
+        "raw": "pkg_check_modules (libgps"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/slam/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/slam/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/slam/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PkgConfig",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/slam/CMakeLists.txt",
+        "raw": "find_package(PkgConfig"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/slam/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "libgps",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/slam/CMakeLists.txt",
+        "raw": "pkg_check_modules (libgps"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/udacity_launch/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/udacity_launch/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/utils/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/utils/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/utils/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/utils/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PkgConfig",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/utils/CMakeLists.txt",
+        "raw": "find_package(PkgConfig"
+      },
+      {
+        "ecosystem": "native",
+        "name": "libgps",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/utils/CMakeLists.txt",
+        "raw": "pkg_check_modules (libgps"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/validator/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PkgConfig",
+        "version": "",
+        "source_file": "image-localization/community-code/roboauto/ros/src/validator/CMakeLists.txt",
+        "raw": "find_package(PkgConfig"
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 141,
+    "files_with_findings": 133,
+    "severity": {
+      "high": 10,
+      "medium": 3,
+      "low": 128
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 3,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/Cascade/Network.h",
+            "line": 139,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 _generator(rand());"
+          },
+          {
+            "severity": "medium",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/ConstructiveAlgorithms/CascadeCorrelation.h",
+            "line": 204,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 _generator;"
+          },
+          {
+            "severity": "medium",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/ProblemSets/Chess.h",
+            "line": 32,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 _generator(rand());"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 10,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "image-localization/community-code/RoboCar/python/class_adder.py",
+            "line": 49,
+            "cwe": "CWE-502",
+            "snippet": "pointer_list.append(pickle.load(input))"
+          },
+          {
+            "severity": "high",
+            "file": "image-localization/community-code/RoboCar/python/create_lmdb.py",
+            "line": 30,
+            "cwe": "CWE-78",
+            "snippet": "os.system('rm -rf  ' + train_lmdb)"
+          },
+          {
+            "severity": "high",
+            "file": "image-localization/community-code/RoboCar/python/create_lmdb_way.py",
+            "line": 26,
+            "cwe": "CWE-78",
+            "snippet": "os.system('rm -rf  ' + train_lmdb)"
+          },
+          {
+            "severity": "high",
+            "file": "steering-models/community-models/autumn/test.py",
+            "line": 73,
+            "cwe": "CWE-95",
+            "snippet": "cnn_output = self.fc3.eval(feed_dict={self.x: [image], self.keep_prob: 1.0})"
+          },
+          {
+            "severity": "high",
+            "file": "steering-models/community-models/autumn/train-cnn.py",
+            "line": 73,
+            "cwe": "CWE-95",
+            "snippet": "train_error = loss.eval(feed_dict={model.x: xs, model.y_: ys, model.keep_prob: 1.0})"
+          },
+          {
+            "severity": "high",
+            "file": "steering-models/evaluation/autumn.py",
+            "line": 79,
+            "cwe": "CWE-95",
+            "snippet": "cnn_output = self.fc3.eval(feed_dict={self.x: [image], self.keep_prob: 1.0})"
+          },
+          {
+            "severity": "high",
+            "file": "vehicle-detection/darkflow/cfg/process.py",
+            "line": 147,
+            "cwe": "CWE-502",
+            "snippet": "profiles = pickle.load(f, encoding = 'latin1')[0]"
+          },
+          {
+            "severity": "high",
+            "file": "vehicle-detection/darkflow/net/help.py",
+            "line": 96,
+            "cwe": "CWE-95",
+            "snippet": "l.w[w_sig] = var.eval(self.sess)"
+          },
+          {
+            "severity": "high",
+            "file": "vehicle-detection/darkflow/net/yolo/data.py",
+            "line": 30,
+            "cwe": "CWE-502",
+            "snippet": "return pickle.load(f, encoding = 'latin1')[0]"
+          },
+          {
+            "severity": "high",
+            "file": "vehicle-detection/darkflow/utils/loader.py",
+            "line": 94,
+            "cwe": "CWE-95",
+            "snippet": "self.vals += [var.eval(sess)]"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 10,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/src/MotionLearner.cpp",
+            "line": 107,
+            "cwe": "CWE-",
+            "snippet": "// TODO: possible problems with sample values"
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/lib/SimpleJSON/include/SimpleJSON.h",
+            "line": 86,
+            "cwe": "CWE-",
+            "snippet": "}else if(s[i]=='.') { // TODO"
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/lib/SimpleJSON/include/SimpleJSON/Type/Array.h",
+            "line": 96,
+            "cwe": "CWE-",
+            "snippet": "//TODO: quickfix, ifnd better solution"
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/src/NeuralNetwork/BasisFunction/Linear.cpp",
+            "line": 46,
+            "cwe": "CWE-",
+            "snippet": "//TODO: assignement!! -- possible speedup"
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/src/NeuralNetwork/Recurrent/Network.cpp",
+            "line": 114,
+            "cwe": "CWE-",
+            "snippet": "//TODO: throw exception"
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/RoboCar/python/class_creator.py",
+            "line": 31,
+            "cwe": "CWE-",
+            "snippet": "#TODO add pointer number"
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/RoboCar/python/class_tools.py",
+            "line": 19,
+            "cwe": "CWE-",
+            "snippet": "#TODO add pointer number"
+          },
+          {
+            "severity": "low",
+            "file": "steering-models/community-models/chauffeur/datasets.py",
+            "line": 592,
+            "cwe": "CWE-",
+            "snippet": "# hack png vs jpg; DWIM"
+          },
+          {
+            "severity": "low",
+            "file": "steering-models/community-models/chauffeur/models.py",
+            "line": 90,
+            "cwe": "CWE-",
+            "snippet": "todo support multi-class output"
+          },
+          {
+            "severity": "low",
+            "file": "steering-models/evaluation/komanda.py",
+            "line": 26,
+            "cwe": "CWE-",
+            "snippet": "self.LEFT_CONTEXT = 5 # TODO remove hardcode; store it in the graph"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 118,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "acc/setup.py",
+            "line": 21,
+            "cwe": "CWE-319",
+            "snippet": "url='http://github.com/udacity/self-driving-car',"
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/image_descriptor/include/ImageDescriptor/Horizont.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/image_descriptor/include/ImageDescriptor/ImageDescriptor.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/image_descriptor/src/Horizont.cpp",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/include/Config.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/include/Motion.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/include/MotionLearner.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/include/MotionTest.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/include/Sample.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/src/main.cpp",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/src/Motion.cpp",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/src/MotionLearner.cpp",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/motion/src/MotionTest.cpp",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with RoboAuto HorizonSlam.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/Network.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/Neuron.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/ActivationFunction/ActivationFunction.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/ActivationFunction/Heaviside.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/ActivationFunction/HyperbolicTangent.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/ActivationFunction/LeakyRectifiedLinear.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/ActivationFunction/Linear.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/ActivationFunction/RectifiedLinear.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/ActivationFunction/Sigmoid.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/BasisFunction/BasisFunction.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/BasisFunction/Linear.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          },
+          {
+            "severity": "low",
+            "file": "image-localization/community-code/roboauto/ros/src/NeuralNetworkLib/include/NeuralNetwork/BasisFunction/Product.h",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  along with NeuralNetworkLib.  If not, see <http://www.gnu.org/licenses/>."
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:5cf79a85-0bd7-5316-913c-eb2eee20a50a",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T14:55:15Z",
+      "component": {
+        "type": "application",
+        "name": "SELF_DRIVING_CAR",
+        "version": "aa7fe7a77d39",
+        "bom-ref": "pkg:generic/anticloud/SELF_DRIVING_CAR@aa7fe7a77d39",
+        "purl": "pkg:generic/anticloud/SELF_DRIVING_CAR@aa7fe7a77d39",
+        "licenses": [
+          {
+            "license": {
+              "id": "UNKNOWN"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "aa7fe7a77d397de27bf8d2ce0e48576337b162f0"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/udacity/self-driving-car"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "pytest",
+        "version": ">=3.0,<3.1",
+        "purl": "pkg:pypi/pytest@3.0,<3.1",
+        "bom-ref": "pypi/pytest@>=3.0,<3.1"
+      },
+      {
+        "type": "library",
+        "name": "catkin",
+        "version": "unspecified",
+        "purl": "pkg:generic/catkin",
+        "bom-ref": "native/catkin@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "OpenCV",
+        "version": "unspecified",
+        "purl": "pkg:generic/OpenCV",
+        "bom-ref": "native/OpenCV@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "DLib",
+        "version": "unspecified",
+        "purl": "pkg:generic/DLib",
+        "bom-ref": "native/DLib@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "DBoW2",
+        "version": "unspecified",
+        "purl": "pkg:generic/DBoW2",
+        "bom-ref": "native/DBoW2@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "PkgConfig",
+        "version": "unspecified",
+        "purl": "pkg:generic/PkgConfig",
+        "bom-ref": "native/PkgConfig@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libgps",
+        "version": "unspecified",
+        "purl": "pkg:generic/libgps",
+        "bom-ref": "native/libgps@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Eigen3",
+        "version": "unspecified",
+        "purl": "pkg:generic/Eigen3",
+        "bom-ref": "native/Eigen3@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Boost",
+        "version": "unspecified",
+        "purl": "pkg:generic/Boost",
+        "bom-ref": "native/Boost@unspecified"
+      }
+    ]
+  },
+  "elapsed_seconds": 281.95
+}
